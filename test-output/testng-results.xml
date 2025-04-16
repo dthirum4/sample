@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="132285" started-at="2025-04-16T15:02:31Z" finished-at="2025-04-16T15:04:43Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="132285" started-at="2025-04-16T15:02:31Z" finished-at="2025-04-16T15:04:43Z">
+      <class name="Utility.Report">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:Utility.Report@433d61fb]" name="startReport" is-config="true" duration-ms="1197" started-at="2025-04-16T15:02:31Z" finished-at="2025-04-16T15:02:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="Launch_Browser()[pri:1, instance:Utility.Report@433d61fb]" name="Launch_Browser" duration-ms="91093" started-at="2025-04-16T15:02:32Z" finished-at="2025-04-16T15:04:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch_Browser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Utility.Report@433d61fb]" name="openBrowser" is-config="true" duration-ms="0" started-at="2025-04-16T15:02:32Z" finished-at="2025-04-16T15:02:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="result(org.testng.ITestResult)[pri:0, instance:Utility.Report@433d61fb]" name="result" is-config="true" duration-ms="7186" started-at="2025-04-16T15:04:03Z" finished-at="2025-04-16T15:04:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Launch_Browser status=SUCCESS method=Report.Launch_Browser()[pri:1, instance:Utility.Report@433d61fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- result -->
+        <test-method status="PASS" signature="team_activity_analytics_report()[pri:2, instance:Utility.Report@433d61fb]" name="team_activity_analytics_report" duration-ms="30939" started-at="2025-04-16T15:04:10Z" finished-at="2025-04-16T15:04:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- team_activity_analytics_report -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Utility.Report@433d61fb]" name="openBrowser" is-config="true" duration-ms="0" started-at="2025-04-16T15:04:10Z" finished-at="2025-04-16T15:04:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="result(org.testng.ITestResult)[pri:0, instance:Utility.Report@433d61fb]" name="result" is-config="true" duration-ms="1382" started-at="2025-04-16T15:04:41Z" finished-at="2025-04-16T15:04:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=team_activity_analytics_report status=SUCCESS method=Report.team_activity_analytics_report()[pri:2, instance:Utility.Report@433d61fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- result -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:Utility.Report@433d61fb]" name="endReport" is-config="true" duration-ms="449" started-at="2025-04-16T15:04:43Z" finished-at="2025-04-16T15:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- Utility.Report -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
